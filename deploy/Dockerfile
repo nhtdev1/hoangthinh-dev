@@ -10,6 +10,8 @@ RUN apt update -y \
 
 EXPOSE 80
 
+EXPOSE 443
+
 STOPSIGNAL SIGTERM
 
 CMD ["nginx", "-g", "daemon off;"]
