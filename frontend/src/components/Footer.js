@@ -25,10 +25,18 @@ export default class Footer extends Component {
               </li>
             </ul>
             <ul className="footer__social">
-              <a href="" target="_blank" className="footer__social-link">
+              <a
+                href="skype:0988419846?chat"
+                target="_blank"
+                className="footer__social-link"
+              >
                 <i className="bx bxl-skype"></i>
               </a>
-              <a href="" target="_blank" className="footer__social-link">
+              <a
+                href="https://twitter.com/nht_dev1"
+                target="_blank"
+                className="footer__social-link"
+              >
                 <i className="bx bxl-twitter"></i>
               </a>
               <a href="" target="_blank" className="footer__social-link">

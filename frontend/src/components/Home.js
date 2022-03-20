@@ -39,7 +39,7 @@ export default class App extends Component {
                 <div className="home__buttons">
                   <a
                     download=""
-                    href="assets/pdf/Ansel-Cv.pdf"
+                    href="assets/pdf/thinh.pdf"
                     className="button button--ghost"
                   >
                     Download CV
@@ -54,13 +54,25 @@ export default class App extends Component {
               </div>
 
               <div className="home__social">
-                <a href="" target="_blank" className="home__social-link">
+                <a
+                  href="https://www.linkedin.com/in/hoangthinhdotdev"
+                  target="_blank"
+                  className="home__social-link"
+                >
                   <i className="bx bxl-linkedin-square"></i>
                 </a>
-                <a href="" target="_blank" className="home__social-link">
+                <a
+                  href="https://github.com/nhtdev1"
+                  target="_blank"
+                  className="home__social-link"
+                >
                   <i className="bx bxl-github"></i>
                 </a>
-                <a href="" target="_blank" className="home__social-link">
+                <a
+                  href="https://twitter.com/nht_dev1"
+                  target="_blank"
+                  className="home__social-link"
+                >
                   <i className="bx bxl-twitter"></i>
                 </a>
               </div>
@@ -101,8 +113,8 @@ export default class App extends Component {
 
                 <p className="about__description">
                   Fullstack Developer, I create app with Java/Kotlin Android,
-                  Flutter Framework, NodeJS, Express. I have years of experience
-                  and many clients are happy with the projects carried out.
+                  Flutter, NodeJS, Express. I have years of experience and many
+                  clients are happy with the projects carried out.
                 </p>
 
                 <a href="#contact" className="button">
@@ -149,8 +161,8 @@ export default class App extends Component {
                     <div className="skills__data">
                       <i className="bx bxs-badge-check"></i>
                       <div>
-                        <h3 className="skills__name">Javascript</h3>
-                        <span className="skills__level">Advanced</span>
+                        <h3 className="skills__name">ReactJs</h3>
+                        <span className="skills__level">Immediate</span>
                       </div>
                     </div>
                   </div>
@@ -183,7 +195,7 @@ export default class App extends Component {
                     <div className="skills__data">
                       <i className="bx bxs-badge-check"></i>
                       <div>
-                        <h3 className="skills__name">Provider,Bloc,GetX</h3>
+                        <h3 className="skills__name">Provider,Bloc,Get</h3>
                         <span className="skills__level">Advanced</span>
                       </div>
                     </div>
@@ -249,7 +261,7 @@ export default class App extends Component {
                     <div className="skills__data">
                       <i className="bx bxs-badge-check"></i>
                       <div>
-                        <h3 className="skills__name">AWS</h3>
+                        <h3 className="skills__name">AWS,Azure,Heroku</h3>
                         <span className="skills__level">Advanced</span>
                       </div>
                     </div>
@@ -295,24 +307,26 @@ export default class App extends Component {
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="servicaes__modal-info">
-                          I develop the user interface
+                          Develop android app with Java/Kotlin Android
                         </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Develop cross-platform app with Flutter
+                        </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Develop website with ReactJs
+                        </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
-                      </li>
-                      <li className="services__modal-item">
-                        <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Build backend ecosystem with NodeJs, Express
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -321,7 +335,7 @@ export default class App extends Component {
 
               <div className="services__card">
                 <h3 className="services__title">
-                  Deploy <br /> Developer
+                  DevOps <br /> Engineer
                 </h3>
                 <span className="services__button">
                   See more{" "}
@@ -331,7 +345,7 @@ export default class App extends Component {
                 <div className="services__modal">
                   <div className="services__modal-content">
                     <i className="bx bx-x services__modal-close"></i>
-                    <h3 className="services__modal-title">Product Developer</h3>
+                    <h3 className="services__modal-title">DevOps Engineer</h3>
 
                     <p className="services__modal-description">
                       Service with more than 2 years of experience. Providing
@@ -342,24 +356,28 @@ export default class App extends Component {
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="servicaes__modal-info">
-                          I develop the user interface
+                          Experience with App Store deployment
                         </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Experience with Google Play Store deployment
+                        </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Experience with Docker, Docker Compose, Docker Swarm,
+                          Kubernetes
+                        </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
-                      </li>
-                      <li className="services__modal-item">
-                        <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Experience with AWS, Azure, Google Cloud, Digital
+                          Ocean, Heroku
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -368,7 +386,7 @@ export default class App extends Component {
 
               <div className="services__card">
                 <h3 className="services__title">
-                  Maintain <br /> Developer
+                  Business <br /> Analyst
                 </h3>
                 <span className="services__button">
                   See more{" "}
@@ -378,7 +396,7 @@ export default class App extends Component {
                 <div className="services__modal">
                   <div className="services__modal-content">
                     <i className="bx bx-x services__modal-close"></i>
-                    <h3 className="services__modal-title">Product Developer</h3>
+                    <h3 className="services__modal-title">Business Analyst</h3>
 
                     <p className="services__modal-description">
                       Service with more than 2 years of experience. Providing
@@ -389,24 +407,26 @@ export default class App extends Component {
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
                         <p className="servicaes__modal-info">
-                          I develop the user interface
+                          Determine requirements
                         </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Design new business models
+                        </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Running analysis projects
+                        </p>
                       </li>
                       <li className="services__modal-item">
                         <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
-                      </li>
-                      <li className="services__modal-item">
-                        <i className="bx bx-check services__modal-icon"></i>
-                        <p className="servicaes__modal-info">Application</p>
+                        <p className="servicaes__modal-info">
+                          Project Management
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -427,51 +447,38 @@ export default class App extends Component {
                 App
               </span>
               <span className="work__item" data-filter=".movil">
-                Movil
+                Web
               </span>
               <span className="work__item" data-filter=".design">
-                Design
+                Library
               </span>
             </div>
 
             <div className="work__container container grid">
               <div className="work__card mix web">
-                <img src="assets/img/work1.jpg" alt="" className="work__img" />
-                <h3 className="work__title">App1</h3>
-                <a href="" className="work__button">
-                  Demo <i className="bx bx-right-arrow-alt work__icon"></i>
+                <img src="assets/img/utes.png" alt="" className="work__img" />
+                <h3 className="work__title">UTE Share</h3>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.hcmute.utes"
+                  className="work__button"
+                >
+                  See <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
 
               <div className="work__card mix movil">
-                <img src="assets/img/work2.jpg" alt="" className="work__img" />
-                <h3 className="work__title">App2</h3>
-                <a href="" className="work__button">
-                  Demo <i className="bx bx-right-arrow-alt work__icon"></i>
+                <img src="assets/img/cv.png" alt="" className="work__img" />
+                <h3 className="work__title">Web Portfolio</h3>
+                <a href="https://www.hoangthinh.dev/" className="work__button">
+                  See <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
 
               <div className="work__card mix design">
-                <img src="assets/img/work3.jpg" alt="" className="work__img" />
-                <h3 className="work__title">App3</h3>
-                <a href="" className="work__button">
-                  Demo <i className="bx bx-right-arrow-alt work__icon"></i>
-                </a>
-              </div>
-
-              <div className="work__card mix web">
-                <img src="assets/img/work4.jpg" alt="" className="work__img" />
-                <h3 className="work__title">App4</h3>
-                <a href="" className="work__button">
-                  Demo <i className="bx bx-right-arrow-alt work__icon"></i>
-                </a>
-              </div>
-
-              <div className="work__card mix movil">
-                <img src="assets/img/work5.jpg" alt="" className="work__img" />
-                <h3 className="work__title">App5</h3>
-                <a href="" className="work__button">
-                  Demo <i className="bx bx-right-arrow-alt work__icon"></i>
+                <img src="assets/img/ear.png" alt="" className="work__img" />
+                <h3 className="work__title">Ear</h3>
+                <a href="https://pub.dev/packages/ear" className="work__button">
+                  See <i className="bx bx-right-arrow-alt work__icon"></i>
                 </a>
               </div>
             </div>
@@ -485,11 +492,15 @@ export default class App extends Component {
               <div className="swiper-wrapper">
                 <div className="testimonial__card swiper-slide">
                   <img
-                    src="assets/img/testimonial1.png"
+                    src="assets/img/luuvanquan.jpg"
                     alt=""
                     className="testimonial__img"
                   />
-                  <h3 className="testimonial__name">Luu Van Quan</h3>
+                  <h3 className="testimonial__name">
+                    Luu Van Quan
+                    <br />
+                    <span class="about__subtitle">PM at Gameloft</span>
+                  </h3>
                   <p className="testimonial__description">
                     A really good job, all aspects of the project were followed
                     step by step and with good results
@@ -498,27 +509,38 @@ export default class App extends Component {
 
                 <div className="testimonial__card swiper-slide">
                   <img
-                    src="assets/img/testimonial2.png"
+                    src="assets/img/huynhnhan.png"
                     alt=""
                     className="testimonial__img"
                   />
-                  <h3 className="testimonial__name">Huynh Nhan</h3>
+                  <h3 className="testimonial__name">
+                    Huynh Nhan
+                    <br />
+                    <span class="about__subtitle">
+                      Solution Architecture at QTSoftware
+                    </span>
+                  </h3>
                   <p className="testimonial__description">
-                    A really good job, all aspects of the project were followed
-                    step by step and with good results
+                    Your technical abilities are at architect-level and you
+                    repeatedly plunged headfirst to solve technical challenges
                   </p>
                 </div>
 
                 <div className="testimonial__card swiper-slide">
                   <img
-                    src="assets/img/testimonial3.png"
+                    src="assets/img/felix.jpeg"
                     alt=""
                     className="testimonial__img"
                   />
-                  <h3 className="testimonial__name">Tran Quang Long</h3>
+                  <h3 className="testimonial__name">
+                    Felix Angelov
+                    <br />
+                    <span class="about__subtitle">Founder of VGVentures</span>
+                  </h3>
+
                   <p className="testimonial__description">
-                    A really good job, all aspects of the project were followed
-                    step by step and with good results
+                    Thank you for your contributions to making the Bloc library
+                    more and more popular in the Flutter community
                   </p>
                 </div>
               </div>
@@ -555,7 +577,11 @@ export default class App extends Component {
                     <i className="bx bxl-skype contact__card-icon"></i>
                     <h3 className="contact__card-title">Skype</h3>
                     <span className="contact__card-data">live:blv.tu98</span>
-                    <a href="" target="_blank" className="contact__button">
+                    <a
+                      href="skype:0988419846?chat"
+                      target="_blank"
+                      className="contact__button"
+                    >
                       Write me{" "}
                       <i className="bx bx-right-arrow-alt contact__card-icon"></i>
                     </a>
