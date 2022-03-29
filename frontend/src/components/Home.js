@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import StarfieldAnimation from "react-starfield-animation";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -20,13 +21,18 @@ export default class App extends Component {
       script.async = true;
       document.body.appendChild(script);
     });
-    console.log("componentDidMount");
   }
 
   render() {
-    console.log("Render");
     return (
       <>
+        <StarfieldAnimation
+          style={{
+            position: "absolute",
+            width: "100%",
+            height: "100%",
+          }}
+        />
         <Header />
         <main className="main">
           <section className="home section" id="home">
