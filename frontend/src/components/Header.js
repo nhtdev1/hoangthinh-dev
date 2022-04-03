@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
@@ -6,10 +7,16 @@ export default class Header extends Component {
       <>
         <header className="header" id="header">
           <nav className="nav container">
-            <a href="#" className="nav__logo">
+            <Link to="/" className="nav__logo">
               Thinh
-            </a>
+            </Link>
 
+            <Link to="/game2048" className="nav__logo">
+              2048
+            </Link>
+            <Link to="/gamePuzzle" className="nav__logo">
+              Sokudo
+            </Link>
             <div className="nav__menu">
               <ul className="nav__list">
                 <li className="nav__item">
@@ -43,7 +50,6 @@ export default class Header extends Component {
                 </li>
               </ul>
             </div>
-
             <i className="bx bx-moon change-theme" id="theme-button"></i>
           </nav>
         </header>
