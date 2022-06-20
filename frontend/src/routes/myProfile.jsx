@@ -11,7 +11,7 @@ export default function MyProfile() {
               <div className="home__buttons">
                 <a
                   download=""
-                  href="assets/pdf/thinh.pdf"
+                  href="assets/pdf/cv.pdf"
                   className="button button--ghost"
                 >
                   Download CV
@@ -67,7 +67,7 @@ export default function MyProfile() {
                 <div className="about__box">
                   <i className="bx bx-award about__icon"></i>
                   <h3 className="about__title">Experience</h3>
-                  <span className="about__subtitle">2 Years Working</span>
+                  <span className="about__subtitle">1.5+ Years Working</span>
                 </div>
 
                 <div className="about__box">
@@ -102,7 +102,7 @@ export default function MyProfile() {
 
           <div className="skills__container container grid">
             <div className="skills__content">
-              <h3 className="skills__title">Frontend Developer</h3>
+              <h3 className="skills__title">Mobile Developer</h3>
 
               <div className="skills__box">
                 <div className="skills__group">
@@ -134,7 +134,7 @@ export default function MyProfile() {
                     <i className="bx bxs-badge-check"></i>
                     <div>
                       <h3 className="skills__name">ReactJs</h3>
-                      <span className="skills__level">Immediate</span>
+                      <span className="skills__level">Basic</span>
                     </div>
                   </div>
                 </div>
@@ -207,7 +207,7 @@ export default function MyProfile() {
                   <div className="skills__data">
                     <i className="bx bxs-badge-check"></i>
                     <div>
-                      <h3 className="skills__name">PM2,Yarn</h3>
+                      <h3 className="skills__name">Npm,Pm2,Yarn</h3>
                       <span className="skills__level">Advanced</span>
                     </div>
                   </div>
@@ -233,16 +233,16 @@ export default function MyProfile() {
                   <div className="skills__data">
                     <i className="bx bxs-badge-check"></i>
                     <div>
-                      <h3 className="skills__name">AWS,Azure,Heroku</h3>
-                      <span className="skills__level">Advanced</span>
+                      <h3 className="skills__name">AWS,Heroku</h3>
+                      <span className="skills__level">Intermediate</span>
                     </div>
                   </div>
 
                   <div className="skills__data">
                     <i className="bx bxs-badge-check"></i>
                     <div>
-                      <h3 className="skills__name">Docker,Kubernetes</h3>
-                      <span className="skills__level">Advanced</span>
+                      <h3 className="skills__name">Docker,K8S</h3>
+                      <span className="skills__level">Intermediate</span>
                     </div>
                   </div>
                 </div>
@@ -271,7 +271,7 @@ export default function MyProfile() {
                   <h3 className="services__modal-title">Product Developer</h3>
 
                   <p className="services__modal-description">
-                    Service with more than 2 years of experience. Providing
+                    Service with more than 1,5 + years of experience. Providing
                     quality work to clients and companies
                   </p>
 
@@ -320,7 +320,7 @@ export default function MyProfile() {
                   <h3 className="services__modal-title">DevOps Engineer</h3>
 
                   <p className="services__modal-description">
-                    Service with more than 2 years of experience. Providing
+                    Service with more than 1,5 + years of experience. Providing
                     quality work to clients and companies
                   </p>
 
@@ -347,8 +347,7 @@ export default function MyProfile() {
                     <li className="services__modal-item">
                       <i className="bx bx-check services__modal-icon"></i>
                       <p className="servicaes__modal-info">
-                        Experience with AWS, Azure, Google Cloud, Digital
-                        Ocean, Heroku
+                        Experience with AWS, Heroku
                       </p>
                     </li>
                   </ul>
@@ -371,7 +370,7 @@ export default function MyProfile() {
                   <h3 className="services__modal-title">Business Analyst</h3>
 
                   <p className="services__modal-description">
-                    Service with more than 2 years of experience. Providing
+                    Service with more than 1,5 + years of experience. Providing
                     quality work to clients and companies
                   </p>
 
@@ -438,9 +437,20 @@ export default function MyProfile() {
               </a>
             </div>
 
+            <div className="work__card mix web">
+              <img src="assets/img/bird.png" alt="" className="work__img" />
+              <h3 className="work__title">Super Bird Flying</h3>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.tdev.flipflop"
+                className="work__button"
+              >
+                See <i className="bx bx-right-arrow-alt work__icon"></i>
+              </a>
+            </div>
+
             <div className="work__card mix movil">
               <img src="assets/img/cv.png" alt="" className="work__img" />
-              <h3 className="work__title">Web Portfolio</h3>
+              <h3 className="work__title">Portfolio Website</h3>
               <a href="https://www.hoangthinh.dev/" className="work__button">
                 See <i className="bx bx-right-arrow-alt work__icon"></i>
               </a>
@@ -448,7 +458,7 @@ export default function MyProfile() {
 
             <div className="work__card mix design">
               <img src="assets/img/ear.png" alt="" className="work__img" />
-              <h3 className="work__title">Ear</h3>
+              <h3 className="work__title">Ear Plugin</h3>
               <a href="https://pub.dev/packages/ear" className="work__button">
                 See <i className="bx bx-right-arrow-alt work__icon"></i>
               </a>
@@ -471,7 +481,7 @@ export default function MyProfile() {
                 <h3 className="testimonial__name">
                   Luu Van Quan
                   <br />
-                  <span class="about__subtitle">PM at Gameloft</span>
+                  <span class="about__subtitle">C/C++ Leader at Gameloft</span>
                 </h3>
                 <p className="testimonial__description">
                   A really good job, all aspects of the project were followed
@@ -489,7 +499,7 @@ export default function MyProfile() {
                   Huynh Nhan
                   <br />
                   <span class="about__subtitle">
-                    Solution Architecture at QTSoftware
+                    Backend Leader at QTSoftware
                   </span>
                 </h3>
                 <p className="testimonial__description">

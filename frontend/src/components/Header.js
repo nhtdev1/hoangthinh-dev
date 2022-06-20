@@ -11,12 +11,6 @@ export default class Header extends Component {
               Thinh
             </Link>
 
-            <Link to="/game2048" className="nav__logo">
-              2048
-            </Link>
-            <Link to="/gamePuzzle" className="nav__logo">
-              Sokudo
-            </Link>
             <div className="nav__menu">
               <ul className="nav__list">
                 <li className="nav__item">
